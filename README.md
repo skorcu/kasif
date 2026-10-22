@@ -14,6 +14,10 @@
   <img src="https://img.shields.io/badge/macOS-14.0%2B%20(Sonoma%20%26%20Sequoia)-purple?style=for-the-badge" alt="macOS 14+" />
 </p>
 
+<p align="center">
+  <img src="https://caneser.com/images/kasif-preview.png" alt="Kâşif macOS Arama Motoru Arayüzü" width="100%" />
+</p>
+
 ---
 
 ## 🚀 1 Dakikada Kolay Kurulum (DMG)
