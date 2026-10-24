@@ -38,7 +38,7 @@ Geleneksel komut paletleri ve arama araçları genellikle yüzlerce megabaytlık
 
 *Test Ortamı: Apple M-Serisi Apple Silicon & APFS SSD • 2.500.000 Dosya & Mesaj Havuzu*
 
-| Metrik & Standart | 🧭 **Kâşif (v2.5.1 Universal 2)** | 🍎 **Dahili Sistem Arama** | 📦 **Ağır Launcher Araçları** |
+| Metrik & Standart | 🧭 **Kâşif (v2.5.2 Universal 2)** | 🍎 **Dahili Sistem Arama** | 📦 **Ağır Launcher Araçları** |
 | :--- | :--- | :--- | :--- |
 | **Uygulama Mimarisi** | **Saf Swift & AppKit (Yerel)** | C++ & CoreServices | Node.js / Rust / Webview |
 | **İndirilen Paket Boyutu** | **2.7 MB** | Dahili | 120 MB – 180 MB |
@@ -89,7 +89,13 @@ Geleneksel komut paletleri ve arama araçları genellikle yüzlerce megabaytlık
 
 ## ✨ Sürüm Geçmişi & Yenilikler (Changelog)
 
-### [v2.5.1] — 24 Ekim 2026 (Apple Noter Onaylı Güncel Sürüm)
+### [v2.5.2] — 24 Ekim 2026 (Apple Noter Onaylı Güncel Sürüm)
+- **15 Günlük Ücretsiz Pro Deneme Mimarisi:** İlk çalıştırmada başlayan ve macOS Keychain ile korunan 15 günlük tam Pro deneme motoru entegre edildi.
+- **Canlı Sayaç & Hile Koruması:** Arayüzde kalan gün sayacı ve sistem saatinin geriye alınmasını engelleyen anti-tampering koruması devreye alındı.
+- **Doğal Pencere Yönetimi:** Standart seviye pencere ile alttaki uygulamalara tıklandığında doğal arkaya düşme, Option+Space ile anında öne gelme sağlandı.
+- **Video & PDF Küçük Resimleri:** Liste satırlarında AVFoundation ve QLThumbnailGenerator ile gerçek kare önizlemeleri ve QuickLook desteği getirildi.
+
+### [v2.5.1] — 24 Ekim 2026
 - **Sıfır Kayma ve Tek Satır Kuralı:** Sıralama butonlarında ("Ad A-Z") oluşan metin kırılması ve yükseklik bozulması giderildi; butonlar tek satır ("A-Z"), sabit 24px yükseklik ve taşma korumasıyla kilitlendi.
 - **Dinamik Responsive Pencere:** Hardcoded sabit boyut yerine ekran çözünürlüğüne (MacBook 13"/14"/16", iMac, harici geniş ekran) göre otomatik ölçeklenen altın oranlı responsive pencere açılışı kuruldu.
 - **Doğal macOS Pencere Yönetimi:** Pencere seviyesi standart (`.normal`) seviyeye alındı; alttaki veya arkadaki bir uygulamaya tıklandığında Kâşif doğal olarak arkaya düşer, `Option + Space` kısayoluna basıldığında anında en öne çağrılır.
