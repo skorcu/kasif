@@ -9,7 +9,7 @@
   [![macOS](https://img.shields.io/badge/macOS-14.0%2B%20(Sonoma%20%26%20Sequoia)-black.svg?style=for-the-badge&logo=apple)](https://caneser.com/kasif)
   [![Apple Notarized](https://img.shields.io/badge/Apple%20Security-Resmi%20Noter%20Onaylı%20✓-10B981.svg?style=for-the-badge&logo=apple)](https://caneser.com/kasif)
   [![Architecture](https://img.shields.io/badge/Mimari-Universal%202%20(arm64%20%2B%20x86__64)-0284C7.svg?style=for-the-badge)](https://caneser.com/kasif)
-  [![License](https://img.shields.io/badge/Lisans-Açık%20Kaynak%20•%20Hediye-8B5CF6.svg?style=for-the-badge)](https://caneser.com/kasif)
+  [![License](https://img.shields.io/badge/Lisans-Sarkaç%20Adam%20Özel%20•%20Freeware%20Hediye-8B5CF6.svg?style=for-the-badge)](https://caneser.com/kasif)
 </div>
 
 ---
@@ -113,8 +113,8 @@ Geleneksel komut paletleri ve arama araçları genellikle yüzlerce megabaytlık
 
 ---
 
-## 📄 Lisans & Teşekkür
+## 📄 Lisans & Güvenlik
 
-Bu proje açık kaynak felsefesiyle sunulmaktadır.  
-Tüm hakları ve marka tasarımı **Sarkaç Adam** ekosistemine aittir.  
+Kâşif, **Sarkaç Adam** tarafından Mac ekosistemine özel olarak geliştirilmiş kapalı kaynaklı (özel mülkiyet / proprietary), resmi Apple Noter güvenlik onaylı ve ömür boyu hediyeli bir arama motorudur.  
+Tüm fikrî mülkiyet, kaynak kodları ve marka hakları **Sarkaç Adam** ekosistemine aittir.  
 Doğal kristal koleksiyonumuzu incelemek ve çalışma masanıza saf enerji katmak için [sarkacadam.com](https://sarkacadam.com) adresini ziyaret edebilirsiniz.
