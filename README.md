@@ -38,7 +38,7 @@ Geleneksel komut paletleri ve arama araçları genellikle yüzlerce megabaytlık
 
 *Test Ortamı: Apple M-Serisi Apple Silicon & APFS SSD • 2.500.000 Dosya & Mesaj Havuzu*
 
-| Metrik & Standart | 🧭 **Kâşif (v2.2 Universal 2)** | 🍎 **Dahili Sistem Arama** | 📦 **Ağır Launcher Araçları** |
+| Metrik & Standart | 🧭 **Kâşif (v2.5.1 Universal 2)** | 🍎 **Dahili Sistem Arama** | 📦 **Ağır Launcher Araçları** |
 | :--- | :--- | :--- | :--- |
 | **Uygulama Mimarisi** | **Saf Swift & AppKit (Yerel)** | C++ & CoreServices | Node.js / Rust / Webview |
 | **İndirilen Paket Boyutu** | **2.7 MB** | Dahili | 120 MB – 180 MB |
@@ -84,6 +84,26 @@ Geleneksel komut paletleri ve arama araçları genellikle yüzlerce megabaytlık
 1. **[Kasif.dmg İndir](https://caneser.com/downloads/Kasif.dmg)** bağlantısından güncel sürümü bilgisayarınıza indirin.
 2. DMG dosyasına çift tıklayın ve **Kâşif** uygulamasını **Uygulamalar (Applications)** klasörüne sürükleyin.
 3. Klavyenizden **`⌥ Boşluk` (Option + Space)** tuşlayarak anında aramaya başlayın.
+
+---
+
+## ✨ Sürüm Geçmişi & Yenilikler (Changelog)
+
+### [v2.5.1] — 24 Ekim 2026 (Apple Noter Onaylı Güncel Sürüm)
+- **Sıfır Kayma ve Tek Satır Kuralı:** Sıralama butonlarında ("Ad A-Z") oluşan metin kırılması ve yükseklik bozulması giderildi; butonlar tek satır ("A-Z"), sabit 24px yükseklik ve taşma korumasıyla kilitlendi.
+- **Dinamik Responsive Pencere:** Hardcoded sabit boyut yerine ekran çözünürlüğüne (MacBook 13"/14"/16", iMac, harici geniş ekran) göre otomatik ölçeklenen altın oranlı responsive pencere açılışı kuruldu.
+- **Doğal macOS Pencere Yönetimi:** Pencere seviyesi standart (`.normal`) seviyeye alındı; alttaki veya arkadaki bir uygulamaya tıklandığında Kâşif doğal olarak arkaya düşer, `Option + Space` kısayoluna basıldığında anında en öne çağrılır.
+- **Video ve PDF Küçük Resim Önizlemeleri:** Apple `AVFoundation` (`AVAssetImageGenerator`) ve `QLThumbnailGenerator` motoru ile liste satırlarında video (`.mp4`, `.mov`, `.3gp`, `.mkv`) ve PDF dosyaları için gerçek kare önizlemeleri aktifleştirildi.
+- **Anında QuickLook Önizleme:** Satırdaki "Önizle" butonuna tıklandığında veya klavyeden `Space` tuşuna basıldığında yerel macOS QuickLook penceresi anında açılır.
+- **Kalıcı Sağ Önizleme Paneli:** Önizleme paneli tercihi `@AppStorage` ile kalıcı yapıldı; ilk aramada ilk sonuç otomatik seçilerek detay kartının anında dolu gelmesi sağlandı.
+
+### [v2.5.0] — 24 Ekim 2026
+- **Sıfır Sürtünmeli Onboarding:** İlk çalıştırmada interaktif adım adım izin ve hızlı başlangıç rehberi.
+- **Kalıcı Tam Disk Erişimi (FDA):** Güvenlik izinleri güncellemeler sonrasında kalıcı olarak korunur.
+- **Özelleştirilebilir Global Kısayol:** Ayarlar ekranından Option+Space veya istenen tuş kombinasyonuyla anında eşleme.
+
+### [v2.4.9] — 24 Ekim 2026
+- **Apple HIG Squircle İkon:** macOS HIG standartlarında tam boy squircle ikon entegrasyonu; Launchpad ve Finder'da oluşan beyaz çerçeve ve boşluklar kalıcı olarak giderildi.
 
 ---
 
