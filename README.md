@@ -39,7 +39,7 @@ Geleneksel komut paletleri ve arama araçları genellikle yüzlerce megabaytlık
 
 *Test Ortamı: Apple M-Serisi Apple Silicon & APFS SSD • 2.500.000 Dosya & Mesaj Havuzu*
 
-| Metrik & Standart | 🧭 **Kâşif (v2.5.2 Universal 2)** | 🍎 **Dahili Sistem Arama** | 📦 **Ağır Launcher Araçları** |
+| Metrik & Standart | 🧭 **Kâşif (v2.5.5 Universal 2)** | 🍎 **Dahili Sistem Arama** | 📦 **Ağır Launcher Araçları** |
 | :--- | :--- | :--- | :--- |
 | **Uygulama Mimarisi** | **Saf Swift & AppKit (Yerel)** | C++ & CoreServices | Node.js / Rust / Webview |
 | **İndirilen Paket Boyutu** | **2.7 MB** | Dahili | 120 MB – 180 MB |
@@ -90,7 +90,12 @@ Geleneksel komut paletleri ve arama araçları genellikle yüzlerce megabaytlık
 
 ## ✨ Sürüm Geçmişi & Yenilikler (Changelog)
 
-### [v2.5.2] — 24 Ekim 2026 (Apple Noter Onaylı Güncel Sürüm)
+### [v2.5.5] — 24 Ekim 2026 (Apple Noter Onaylı En Güncel Sürüm)
+- **macOS 28 ve Sequoia Uyumluluğu:** Apple Silicon öncelikli yürütme (`LSArchitecturePriority: arm64`, `LSRequiresNativeExecution: true`) entegrasyonu; sistem güncelleme uyarıları sıfırlandı.
+- **Arama Çubuğu Dikey Boşluk Rötuşu:** Arama barı üzerindeki fazla boşluk dengelenerek sol kenar çubuğu logosuyla kusursuz simetri sağlandı.
+- **Apple Notarization & Universal 2:** Apple Notary Service tarafından onaylandı ve DMG'ye zımbalandı.
+
+### [v2.5.2] — 24 Ekim 2026
 - **15 Günlük Ücretsiz Pro Deneme Mimarisi:** İlk çalıştırmada başlayan ve macOS Keychain ile korunan 15 günlük tam Pro deneme motoru entegre edildi.
 - **Canlı Sayaç & Hile Koruması:** Arayüzde kalan gün sayacı ve sistem saatinin geriye alınmasını engelleyen anti-tampering koruması devreye alındı.
 - **Doğal Pencere Yönetimi:** Standart seviye pencere ile alttaki uygulamalara tıklandığında doğal arkaya düşme, Option+Space ile anında öne gelme sağlandı.
