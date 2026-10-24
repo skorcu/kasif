@@ -9,6 +9,7 @@
   [![macOS](https://img.shields.io/badge/macOS-14.0%2B%20(Sonoma%20%26%20Sequoia)-black.svg?style=for-the-badge&logo=apple)](https://caneser.com/kasif)
   [![Apple Notarized](https://img.shields.io/badge/Apple%20Security-Resmi%20Noter%20Onaylı%20✓-10B981.svg?style=for-the-badge&logo=apple)](https://caneser.com/kasif)
   [![Architecture](https://img.shields.io/badge/Mimari-Universal%202%20(arm64%20%2B%20x86__64)-0284C7.svg?style=for-the-badge)](https://caneser.com/kasif)
+  [![Companion](https://img.shields.io/badge/Kardeş%20Uygulama-İhyâ%20(Mac%20Arınma)-10B981.svg?style=for-the-badge&logo=apple)](https://github.com/skorcu/ihya)
   [![License](https://img.shields.io/badge/Lisans-Sarkaç%20Adam%20Özel%20•%20Freeware%20Hediye-8B5CF6.svg?style=for-the-badge)](https://caneser.com/kasif)
 </div>
 
@@ -110,6 +111,22 @@ Geleneksel komut paletleri ve arama araçları genellikle yüzlerce megabaytlık
 
 ### [v2.4.9] — 24 Ekim 2026
 - **Apple HIG Squircle İkon:** macOS HIG standartlarında tam boy squircle ikon entegrasyonu; Launchpad ve Finder'da oluşan beyaz çerçeve ve boşluklar kalıcı olarak giderildi.
+
+---
+
+## 🤝 Kusursuz İkili: İhyâ ile Mac'inizi Arındırın & Hafifletin 💎
+
+Kâşif ile aradığınız her şeye milisaniyeler içinde ulaşırken, Mac'inizin de ilk günkü saf hızına, ferahlığına ve temizliğine kavuşmasını ister misiniz?
+
+Kâşif'in kardeş uygulaması olan **[İhyâ (Mac)](https://github.com/skorcu/ihya)**; arka planda sistemi yoran hantal temizleyicilere, gizli telemetri takibine ve aylık abonelik tuzaklarına son veren yeni nesil bir **macOS Arınma & Canlanma Motorudur**.
+
+- 🧹 **Akıllı Arınma (Smart Clean):** Xcode, Node, Docker derleme çöplerini, sistem artıklarını ve gizli önbellekleri tek dokunuşla temizler.
+- ⚡ **Başlangıç & Arka Plan Yöneticisi:** Mac açılışını yavaşlatan gereksiz servisleri ve silinmiş program kalıntılarını anında süpürür.
+- 🧠 **Canlı Bellek Röntgeni:** Darwin VM baskı döngüsüyle root yetkisi gerektirmeden RAM'i anında ferahlatır.
+- 🔍 **Çift Dosya Avcısı:** 3 aşamalı SHA-256 algoritmasıyla mükerrer dosyaları güvenle temizler.
+- 🍎 **Saf Yerel Mimari:** Yalnızca 2.8 MB boyut, beklemede 0.0 MB RAM harcaması ve Apple Silicon M1-M4 tam desteği.
+
+👉 **[İhyâ'yı GitHub'da İnceleyin & İndirin ➔](https://github.com/skorcu/ihya)**
 
 ---
 
