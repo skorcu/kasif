@@ -43,7 +43,7 @@ Geleneksel komut paletleri ve arama araçları genellikle yüzlerce megabaytlık
 
 *Test Ortamı: Apple M-Serisi Apple Silicon & APFS SSD • 2.500.000 Dosya & Mesaj Havuzu*
 
-| Metrik & Standart | 🧭 **Kâşif (v2.6.5 Universal 2)** | 🍎 **Dahili Sistem Arama** | 📦 **Ağır Launcher Araçları** |
+| Metrik & Standart | 🧭 **Kâşif (v2.6.6 Universal 2)** | 🍎 **Dahili Sistem Arama** | 📦 **Ağır Launcher Araçları** |
 | :--- | :--- | :--- | :--- |
 | **Uygulama Mimarisi** | **Saf Swift & AppKit (Yerel)** | C++ & CoreServices | Node.js / Rust / Webview |
 | **İndirilen Paket Boyutu** | **2.7 MB** | Dahili | 120 MB – 180 MB |
